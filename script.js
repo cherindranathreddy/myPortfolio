@@ -29,8 +29,8 @@ themeDot4.addEventListener("click",function(){
 
 
 function setTheme(mode){
-    if(mode=="purple"){
-        document.getElementById("theme-style").href="purple.css";
+    if(mode=="light"){
+        document.getElementById("theme-style").href="light.css";
     }
     else if(mode=="blue"){
         document.getElementById("theme-style").href="blue.css";
@@ -39,6 +39,6 @@ function setTheme(mode){
         document.getElementById("theme-style").href="green.css";
     }
     else{
-        document.getElementById("theme-style").href="default.css";
+        document.getElementById("theme-style").href="purple.css";
     }
 }
